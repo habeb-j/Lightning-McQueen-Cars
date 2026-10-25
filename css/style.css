@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #7cbd2c;
+}
+
+.header-logo {
+  float: right;
+  width: 10%;
+  height: 100px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.header {
+  float: left;
+  width: 90%;
+  height: 100px;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  line-height: 100px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 52px;
+  background: url(../images/bg_menu.gif) top repeat-x;
+}
+
+.menu ul {
+  list-style: none;
+  border: 0;
+  margin: 0;
+  width: 100%;
+  float: right;
+  padding: 0;
+}
+
+.menu ul li {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-color: #f2ffcc;
+  border-left-color: #759b00;
+}
+
+.menu ul li a {
+  float: left;
+  margin: 0 1px 0 0;
+  padding: 17px 47px;
+  color: #060;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.menu ul li a:hover {
+  background: url(../images/hover.gif) left repeat-x;
+  color: #060;
+}
+
+.menu ul li a.active {
+  background: url(../images/hover.gif) left repeat-x;
+  color: #030;
+}
+
+.students {
+  overflow: hidden;
+  padding: 20px 2%;
+}
+
+.student {
+  float: right;
+  background-color: #333333;
+  color: #ffffff;
+  width: 17%;
+  margin: 0 1.5%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.student h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.student p {
+  font-size: 14px;
+}
+
+.bg-image {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bg-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.table-wrapper {
+  height: 250px;
+  overflow-y: scroll;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.cars-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.cars-table th,
+.cars-table td {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #222;
+}
+
+.cars-table thead th {
+  background: url(../images/bg_menu.gif) top repeat-x #e0e8d8;
+  color: #060;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  border-right: 1px solid #f2ffcc;
+  border-left: 1px solid #759b00;
+  font-weight: bold;
+}
+
+.continue-btn-container {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#continueBtn {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.info-box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 2px solid #333;
+  min-height: 20px;
+  margin: 10px;
+}
+
+.info-box fieldset {
+  border: 2px solid #333;
+  padding: 20px;
+}
+
+.info-box legend {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.info-box label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.info-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.info-box #submitBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.detail-text {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 16px;
+}
+.big-logo {
+  margin-top: 2px;
+  height: calc(100vh - 650px);
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.big-logo img {
+  height: 100%;
+  width: auto;
+  vertical-align: middle;
+}
