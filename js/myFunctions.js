@@ -284,20 +284,3 @@ $(document).ready(function () {
     });
   });
 });
-function adjustBottomLogo() {
-  var box = document.getElementById("bottom-logo");
-  var infoBoxes = document.querySelectorAll(".info-box");
-
-  if (box && infoBoxes.length > 0) {
-    var lastBox = infoBoxes[infoBoxes.length - 1];
-    var startPosition = lastBox.offsetTop + lastBox.offsetHeight + 2;
-    var remainingHeight = window.innerHeight - startPosition - 2;
-
-    box.style.top = startPosition + "px";
-    box.style.height = remainingHeight + "px";
-    box.style.lineHeight = remainingHeight + "px";
-  }
-}
-
-window.onload = adjustBottomLogo;
-window.onresize = adjustBottomLogo;
