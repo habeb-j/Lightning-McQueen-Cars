@@ -11,15 +11,13 @@
     <script type="text/javascript" src="js/myFunctions.js"></script>
   </head>
   <body>
-    <!-- The header -->
+    <!-- Theheader&Navigation -->
     <div class="header-wrapper">
       <div class="header-logo"></div>
       <div class="header">
         <h1>شركة Lightning McQueen Cars لتأجير السيارات</h1>
       </div>
     </div>
-
-    <!-- Navigation -->
     <div class="menu">
       <ul>
         <li><a href="home.html">الصفحة الرئيسية</a></li>
@@ -27,13 +25,14 @@
         <li><a href="aboutus.html">من نحن</a></li>
       </ul>
     </div>
-
-    <!-- Main Content -->
+    <!---------------------------------------------------------------------------------------->
     <div class="container">
-      <!-- Table with Scroll -->
+      <!-- جدول تم عمله فقط يظهر 4 أسطر فقط -->
       <div class="table-wrapper">
         <table class="cars-table">
+          <!--  -->
           <thead>
+            --تم استهداف رأس الحدول ليأخذ شكل القائمة العليا
             <tr>
               <th>الرمز</th>
               <th>الموديل</th>
@@ -43,6 +42,7 @@
               <th>اختيار</th>
             </tr>
           </thead>
+          <!--  -->
           <tbody>
             <tr>
               <td>CR-001</td>
@@ -317,21 +317,19 @@
           </tbody>
         </table>
       </div>
+      <!------------------------------------------------------------------------------------------------>
+      <!-- زر المتابعة مع سبان يقوم بعرض عدد السيارات المختار -->
 
       <div class="continue-btn-container">
         <button type="button" id="continueBtn" disabled="disabled">
           متابعة
         </button>
-        <span
-          id="car-counter"
-          style="margin-right: 10px; font-weight: bold; color: #333"
-          >0 سيارة مختارة</span
+        <span id="car-counter">0 سيارة مختارة</span>
         >
       </div>
-
-      <!-- Form Info Box -->
+      <!------------------------------------------------------------------------------------------------>
+      <!-- عنصرين واحد لعرض الفورم وواحد لعرض معلومات السيارة التفصيلية -->
       <div class="info-box" id="form-area"></div>
-
       <!-- Details Info Box -->
       <div class="info-box" id="details-area"></div>
     </div>
